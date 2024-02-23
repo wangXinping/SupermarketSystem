@@ -20,7 +20,7 @@ $(function () {
         locale: 'zh-CN',//中文支持,
     });
     setInterval(function () {
-
+        $("#code_search").focus();
         $.ajax("/cashier/goods",{
             headers:{
                 contentType: "application/x-www-form-urlencoded",
@@ -110,7 +110,10 @@ $(function () {
                 break;
             case 13:
                 //结算
-                createOrder();
+                //createOrder();
+                let code = $("#code_search").val();
+                sendCode(code);
+                $("#code_search").val("");
                 break;
             case 9:
                 //挂单

@@ -27,9 +27,11 @@ public class CashierController {
     @RequiresPermissions("cashier:view")
     @RequestMapping("cashier")
     public String cashier(Map map, HttpServletRequest request){
-        CodeModel addsp = CodeFactory.getCodeModel("jssy", request.getSession().getId());
-        String s = JSON.toJSONString(addsp);
-        map.put("img", CodeUtil.CreateQRCode(s));
+//        CodeModel addsp = CodeFactory.getCodeModel("jssy", request.getSession().getId());
+//        String s = JSON.toJSONString(addsp);
+//        map.put("img", CodeUtil.CreateQRCode(s));
+//        String imagePath = "/static/images/my-image.jpg";
+//        map.put("img", CodeUtil.CreateQRCode(s));
         map.put("no",request.getSession().getId());
         return "cashier";
     }
