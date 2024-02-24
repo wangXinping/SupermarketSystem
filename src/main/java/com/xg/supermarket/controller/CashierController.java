@@ -38,7 +38,7 @@ public class CashierController {
     /**
      * @title 获取挂单的数据
      * @description 
-     * @author 村头老杨头 
+     * @author chuan9964
      * @updateTime 2021/7/1 10:51 
      * @throws 
      */
@@ -58,9 +58,9 @@ public class CashierController {
     /**
      * @title 收银减商品
      * @description 
-     * @author 村头老杨头 
+     * @author chuan9964
      * @updateTime 2021/7/1 10:57
-     * @throws 
+     * @throws
      */
     @RequiresPermissions("cashier:subGoods")
     @GetMapping("cashier/subGoods")
