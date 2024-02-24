@@ -1,9 +1,3 @@
-
-# 95.SupermarketCashierManagementSystem
-
-<p>群: 123300273(大佬群 2TB学习资料,讲解)(入群获取sql文件)</p>
-<p>QQ: 1095737364(加好友获取sql文件)</p>
-
 <p><h1 align="center">95.超市收银管理系统</h1></p>
 
 <p align="center">
@@ -13,13 +7,6 @@
     <img src="https://img.shields.io/badge/mybatis-3.x-blue.svg"/>
     <img src="https://img.shields.io/badge/springboot-3.x-blue.svg"/>
 </p>
-
-
-## 简介
-
-> 本代码来源于网络, 请入群(123300273)后联系群主索要sql文件!
->
-
 
 
 ## 环境
