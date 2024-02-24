@@ -1,4 +1,4 @@
-<p><h1 align="center">95.超市收银管理系统</h1></p>
+<p><h1 align="center">基于物联网的超市自助购物系统</h1></p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/jdk-1.8-orange.svg"/>
@@ -31,7 +31,6 @@ BS架构
 ```
 后端 SpringBoot+Maven+Mysql+Shiro+Redis
 前端 Bootstrip+Echarts+Thymeleaf+Ajax
-手机端扫码枪 uni-app
 ```
 
 #### 功能分析
@@ -85,11 +84,3 @@ mvn install:install-file -Dfile=e:\QRCode-3.0.jar -DgroupId=QRCode -DartifactId=
 ![](https://img2022.cnblogs.com/blog/588112/202203/588112-20220318092518359-628318318.png)
 
 
-## License
-
-
-
-##### [个人站点: 全栈九九六(Java全栈知识资料下载)](https://www.blog996.com/)
-##### [个人博客: 博客园精品博客](https://www.cnblogs.com/yysbolg/)
-##### [更多论文: 精品论文查看](https://www.cnblogs.com/yysbolg/category/1886262.html)
-##### [更多论文: 全目录查看](https://www.blog996.com/md/2021-09-22-1632317852192.html)
